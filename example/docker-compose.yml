@@ -6,4 +6,4 @@ services:
     ports:
       - "18080:8080" # 外部访问端口
     volumes:
-      - /volume1/upload-data:/data/uploads # 根据实际路径修改
+      - /volume1/public/uploads:/uploads # 根据实际路径修改
