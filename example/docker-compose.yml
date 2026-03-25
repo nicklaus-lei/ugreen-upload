@@ -1,6 +1,6 @@
 services:
   upload-service:
-    image: nicklauslee/ugreen-upload:latest
+    image: nicklauslee/ugreen-upload:latest // ghcr.io/nicklaus-lei/ugreen-upload:latest
     container_name: upload-service
     restart: always
     ports:
