@@ -1,0 +1,9 @@
+services:
+  upload-service:
+    image: nicklaus-lei/ugreen-upload:latest
+    container_name: upload-service
+    restart: always
+    ports:
+      - "18080:8080" # 外部访问端口
+    volumes:
+      - /volume1/upload-data:/data/uploads # 根据实际路径修改
